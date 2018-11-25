@@ -10,11 +10,10 @@
 
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="css/styles.css"  rel="stylesheet">
-    <title>Hello, world!</title>
+    <title>Love is in the air</title>
   </head>
   <body>
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav id="navbar-example"class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#">
         <img src="images/RedHeart.png" width="30">
       </a>
@@ -24,47 +23,58 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#Home">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Date Locations</a>
+            <a class="nav-link" href="#Date Locations">Date Locations</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Honeymoon Destinations</a>
+            <a class="nav-link" href="#Honeymoon Destinations">Honeymoon Destinations</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Wedding Venues</a>
+            <a class="nav-link" href="#Wedding Venues">Wedding Venues</a>
           </li>
         </ul>
       </div>
     </nav>
 
+    <div data-spy="scroll" data-target="#navbar-example" data-offset="0">
+      <h4 id="Home"></h4>
+      <div class="container">
+        <div class="jumbotron">
+        <h1 class="display-4">Welcome!</h1>
+        <p class="lead"> This is the most romantic website! We are very glad to introduce you the most romantic date locations in London, a selection of the best Winter and Summer Honeymoon Destinations across the world as well as Wedding venues and decoration ideas for your special day</p>
+        <hr class="my-4">
+        <p>Our team consists of three great specialists on that topic.</p>
+           <div class="row">
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <p>Svetla</p>
+              <img src="images/Svetla.jpg" width="200" height="200">
+              <p>Head of Date Locations</p>
+              </div>
+           <div class="col-sm-6 col-md-4 col-lg-3">
+             <p>Emma</p>
+             <img src="images/Emma.jpg" width="200">
+             <p>Head of Honeymoon Destinations</p>
+             </div>
+           <div class="col-sm-6 col-md-4 col-lg-3">
+             <p>Avneet</p>
+             <img src="images/Avneet.jpg" width="200" height="200">
+             <p>Head of Wedding Venues</p>
+             </div>
+          </div>
+      </div>
+      </div>
 
-    <div class="container">
-      <div class="jumbotron">
-      <h1 class="display-4">Welcome!</h1>
-      <p class="lead"> This is the most romantic website! We are very glad to introduce you the most romantic date locations in London, a selection of the best Winter and Summer Honeymoon Destinations across the world as well as Wedding venues and decoration ideas for your special day</p>
-      <hr class="my-4">
-      <p>Our team consists of three great specialists on that topic.</p>
-         <div class="row">
-          <div class="col-sm-6 col-md-4 col-lg-3">
-            <p>Svetla</p>
-            <img src="images/Svetla.jpg" width="200" height="200">
-            <p>Head of Date Locations</p>
-            </div>
-         <div class="col-sm-6 col-md-4 col-lg-3">
-           <p>Emma</p>
-           <img src="images/Emma.jpg" width="200">
-           <p>Head of Honeymoon Destinations</p>
-           </div>
-         <div class="col-sm-6 col-md-4 col-lg-3">
-           <p>Avneet</p>
-           <img src="images/Avneet.jpg" width="200" height="200">
-           <p>Head of Wedding Venues</p>
-           </div>
-        </div>
+
+      <h4 id="Date Locations">Date Locations</h4>
+      <p>Date Locations</p>
+      <h4 id="Honeymoon Destinations">Honeymoon Destinations</h4>
+      <p>...</p>
+      <h4 id="Wedding Venues">Wedding Venues</h4>
+      <p>...</p>
     </div>
-    </div>
+
 
     <div class="jumbotron">
     <h1 class="display-4">Hello, world!</h1>
