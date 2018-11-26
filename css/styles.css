@@ -1,2 +1,16 @@
 
-a.active { background-color: red;}
+/* body {
+  background: url("../images/HeartsandFlowers-04.png") repeat;
+  background-size: 300px 300px;
+}
+*/
+
+#homecontainer {
+  background: url("../images/HeartsandFlowers-04.png") repeat;
+  background-size: 300px 300px;
+}
+#home {
+  background: url("../images/HeartsandFlowers-04.png") repeat;
+  background-size: 300px 300px;
+
+}
