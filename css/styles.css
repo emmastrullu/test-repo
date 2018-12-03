@@ -32,8 +32,9 @@
   color: blue;
 }
 
-#first-jumbo{
-background: url("../images/HeartsandFlowers-04.png") repeat;
+#jumbotron-form{
+background: url("../images/RedHeartsFloating.gif") repeat;
+background-color: #D3D3D3;
 background-size: 280px 280x;
 background-attachment: fixed;
 
