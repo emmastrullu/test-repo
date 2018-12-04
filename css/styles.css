@@ -1,9 +1,9 @@
-
-/* body {
-  background: url("../images/HeartsandFlowers-04.png") repeat;
+/*
+body {
+  background: url("../images/Roses1.jpg") repeat;
   background-size: 300px 300px;
-}
-*/
+} */
+
 /*#homecontainer {
   background: url("../images/HeartsandFlowers-04.png") repeat;
   background-size: 200px 200px;
@@ -76,4 +76,9 @@ background-attachment: fixed;
   height: 100%;
   min-height: 300px;
   margin-bottom: 20px;
+}
+
+.page-footer {
+background-color: grey;
+
 }
