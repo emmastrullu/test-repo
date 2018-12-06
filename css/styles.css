@@ -37,6 +37,7 @@ background: url("../images/RedHeartsFloating.gif") repeat;
 background-color: #D3D3D3;
 background-size: 280px 280x;
 background-attachment: fixed;
+margin-bottom: 0px;
 
 }
 .light_bg {background:url("../images/HeartsandFlowers-04.png") repeat-x scroll 0 0;}
@@ -80,5 +81,6 @@ background-attachment: fixed;
 
 .page-footer {
 background-color: grey;
-
+margin:auto;
+margin-top:auto;
 }
