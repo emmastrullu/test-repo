@@ -10,8 +10,10 @@ body {
 }
 */
 
- body {font-family: "Permanent Marker";
-Padding: 0px;}
+ body {
+   font-family: "Permanent Marker";
+   padding: 0px;
+ }
 
 .svetcarousel {
   margin-bottom: 10px;
