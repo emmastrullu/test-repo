@@ -10,8 +10,11 @@
   <link href="https://fonts.googleapis.com/css?family=Courgette|Lobster|Permanent+Marker|Roboto+Slab:100,300,400,700" rel="stylesheet">
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link href="css/gallery-grid.css"  rel="stylesheet">
   <link href="css/styles.css"  rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
 
   <title>Love is in the air</title>
 </head>
@@ -204,18 +207,84 @@
     <div class="container" id="honeymoondestinationscontainer">
       <h4 id="Honeymoon Destinations">Honeymoon Destinations</h4>
       <p>...</p>
-      <div class="row">
-        <div class="col-sm-2 col-md-6 col-lg-12">
-          <img src="images/Greece.jpg" width="200" height="200">
-          <img src="images/Japan.jpg" width="200" height="200">
-          <img src="images/Igloo.jpg" width="200" height="200">
-          <img src="images/Paris.jpg" width="200" height="200">
-          <img src="images/Venice.jpg" width="200" height="200">
-          <img src="images/Bali.jpg" width="200" height="200">
-          <img src="images/Yacht.jpg" width="200" height="200">
-          <img src="images/SriLanka.jpg" width="200" height="200">
-          <img src="images/Dubai.jpg" width="200" height="200">
-          <img src="images/Tub.jpg" width="200" height="200">
+      <div class="tz-gallery" style="padding: 0px">
+        <div class="row mb-3">
+          <div class="col-md-4">
+            <div class="card">
+              <a class="lightbox" href="images/Greece.jpg">
+                <img src="images/Greece.jpg" alt="Greece" class="card-img-top"
+                    style="display: block; width: 100%; height: 200px; object-fit: cover;">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <a class="lightbox" href="images/Japan.jpg">
+                <img src="images/Japan.jpg" alt="Japan" class="card-img-top"
+                    style="display: block; width: 100%; height: 200px; object-fit: cover;">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <a class="lightbox" href="images/Igloo.jpg">
+                <img src="images/Igloo.jpg" alt="Igloo" class="card-img-top"
+                    style="display: block; width: 100%; height: 200px; object-fit: cover;">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col-md-4">
+            <div class="card">
+              <a class="lightbox" href="images/Paris.jpg">
+                <img src="images/Paris.jpg" alt="Paris" class="card-img-top"
+                    style="display: block; width: 100%; height: 200px; object-fit: cover;">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <a class="lightbox" href="images/Venice.jpg">
+                <img src="images/Venice.jpg" alt="Venice" class="card-img-top"
+                    style="display: block; width: 100%; height: 200px; object-fit: cover;">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <a class="lightbox" href="images/Dubai.jpg">
+                <img src="images/Dubai.jpg" alt="Dubai" class="card-img-top"
+                    style="display: block; width: 100%; height: 200px; object-fit: cover;">
+              </a>
+            </div>
+          </div>
+          </div>
+          <div class="row mb-3">
+          <div class="col-md-4">
+            <div class="card">
+              <a class="lightbox" href="images/Tub.jpg">
+                <img src="images/Tub.jpg" alt="Tub" class="card-img-top"
+                    style="display: block; width: 100%; height: 200px; object-fit: cover;">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <a class="lightbox" href="images/Yacht.jpg">
+                <img src="images/Yacht.jpg" alt="Yacht" class="card-img-top"
+                    style="display: block; width: 100%; height: 200px; object-fit: cover;">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <a class="lightbox" href="images/Bali.jpg">
+                <img src="images/Bali.jpg" alt="Bali" class="card-img-top"
+                    style="display: block; width: 100%; height: 200px; object-fit: cover;">
+              </a>
+            </div>
+          </div>
         </div>
       </div>
       <button class="btn btn-success" type="cta">See date venues now</button>
@@ -434,6 +503,12 @@
 <script src="http://maps.google.com/maps/api/js?key=AIzaSyBvvjseUdA30XstYZsZSqqzjoSUUSQFd_c"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.js"></script>
 <script src="js/app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script>
+    baguetteBox.run('.tz-gallery');
+</script>
+<script src="js/app.js"></script>
+
 
 
 </body>

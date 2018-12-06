@@ -84,3 +84,7 @@ background-color: grey;
 margin:auto;
 margin-top:auto;
 }
+
+.tz-gallery .lightbox img {
+  margin-bottom: 0px;
+}
