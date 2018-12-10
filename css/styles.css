@@ -230,3 +230,9 @@ span.clients-name {
 * {
   box-sizing: border-box;
 }
+
+ @media (max-width: 576px) {
+  .margin-top-custom {
+		margin-top: 20px;
+	}
+ }
