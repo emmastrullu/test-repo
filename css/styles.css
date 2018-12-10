@@ -265,3 +265,7 @@ span.clients-name {
  .sticky + .content {
    padding-top: 40px;
  }
+
+ .carousel-item {
+ 	margin-top: 20px;
+ }
