@@ -22,7 +22,7 @@ body {
 }
 
 .subheading{
-	color: #bfdeff!important;
+	color: #5A97D8!important;
 }
 
 .team{text-align: center;}
@@ -178,6 +178,7 @@ margin-top:auto;
 
 blockquote p.clients-words {
     font-size: 14px;
+		padding: 10px;
 }
 span.clients-name {
   font-size: 14px;
