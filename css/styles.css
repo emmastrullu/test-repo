@@ -79,7 +79,9 @@ margin-bottom: 0px;
 
 }
 .light_bg {background:url("../images/HeartsandFlowers-04.png") repeat-x scroll 0 0;}
-
+.bg-light {
+    background-color: #FFB6C1!important;
+}
 .map-example .heading .icon {
   color:#ffb526;
 }
@@ -228,4 +230,3 @@ span.clients-name {
 * {
   box-sizing: border-box;
 }
- 1×0.5×0.25× Rerun
