@@ -72,7 +72,7 @@ body {
 
 #jumbotron-form{
 background: url("../images/RedHeartsFloating.gif") repeat;
-background-color: #D3D3D3;
+background-color: #FDCCD3;
 background-size: 280px 280x;
 background-attachment: fixed;
 margin-bottom: 0px;
@@ -118,7 +118,7 @@ margin-bottom: 0px;
 }
 
 .page-footer {
-background-color: grey;
+background-color: #FFB6C1;
 margin:auto;
 margin-top:auto;
 }
